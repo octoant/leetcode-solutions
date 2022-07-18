@@ -2,7 +2,7 @@ func sortArrayByParity(nums []int) []int {
   var res []int
   for _, val := range nums {
     if val % 2 == 0 {
-      res = ppend(res, val)
+      res = append(res, val)
     }
   }
   for _, val := range nums {
